@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap");
+
+body {
+	width: 100%;
+	display: inline-block;
+	font-family: "Fira Sans", sans-serif;
+}
+
+.image-center {
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.navigation {
+	/* background-color: #3B82F6; */
+	/* background-color: rgb(82, 16, 16); */
+	width: 100%;
+	color: rgb(82, 16, 16);
+	padding: 1rem;
+	border-bottom-left-radius: 1rem;
+}
+
+.navigation .link {
+	color: rgb(82, 16, 16);
+}
+
+.navigation .nav-pills {
+	text-align: right;
+}
+
+.navigation .nav-name {
+	font-weight: bold;
+}
+
+.container {
+	width: 100%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.link-active {
+	font-weight: bold;
+}
+
+.list-no-bullet {
+	list-style: none;
+}
+
+.list-for-itemInline {
+	display: inline;
+	padding: 0rem 0.5rem;
+}
+
+.cheflogo {
+	/* margin-left: auto;
+    margin-right: auto;
+    size: 100px; */
+}
+
+.home1 {
+	padding: 100px;
+}
+
+.home1 h1 {
+	font-size: 60px;
+	font-weight: bold;
+	color: rgb(105, 32, 32);
+}
+.home1 p {
+	font-size: 20px;
+}
+.column {
+	width: 50%;
+	padding: 50px;
+}
+
+.home2 {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+
+.home2 h2 {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.col-sm-4 {
+	outline: 1px dotted rgba(0, 0, 0, 0.25);
+}
+.row h3 {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+}
+
+/* .row img {
+  align-items: center;
+  align-self: center;
+  align-content: center;
+} */
+
+.image img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	top: 0;
+	/* left: 0; */
+	/* width: 100%;
+  height: 100%; */
+	border-radius: 0;
+}
+
+.sec1 {
+	margin-top: 10rem;
+	size: 50px;
+}
+
+.home2 p {
+	text-align: center;
+}
+
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #3b5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55acee;
+	color: white;
+}
+
+.fa-google {
+	background: #dd4b39;
+	color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+
+.fa-youtube {
+	background: #bb0000;
+	color: white;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+
+.fa-pinterest {
+	background: #cb2027;
+	color: white;
+}
+
+.fa-snapchat-ghost {
+	background: #fffc00;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+	background: #00aff0;
+	color: white;
+}
+
+.fa-android {
+	background: #a4c639;
+	color: white;
+}
+
+.fa-dribbble {
+	background: #ea4c89;
+	color: white;
+}
+
+.fa-vimeo {
+	background: #45bbff;
+	color: white;
+}
+
+.fa-tumblr {
+	background: #2c4762;
+	color: white;
+}
+
+.fa-vine {
+	background: #00b489;
+	color: white;
+}
+
+.fa-foursquare {
+	background: #45bbff;
+	color: white;
+}
+
+.fa-stumbleupon {
+	background: #eb4924;
+	color: white;
+}
+
+.fa-flickr {
+	background: #f40083;
+	color: white;
+}
+
+.fa-yahoo {
+	background: #430297;
+	color: white;
+}
+
+.fa-soundcloud {
+	background: #ff5500;
+	color: white;
+}
+
+.fa-reddit {
+	background: #ff5700;
+	color: white;
+}
+
+.fa-rss {
+	background: #ff6600;
+	color: white;
+}
+
+.fade-in {
+	border-radius: 4px;
+
+	background: #fff;
+	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+	transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+		0.3s box-shadow,
+		0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+	padding: 14px 80px 18px 36px;
+	cursor: pointer;
+}
+
+.fade-in:hover {
+	transform: scale(1.05);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+	border-color: #430297;
+	border: 1px solid;
+}
+
+.spl {
+	align-items: center;
+}
+
+.sp {
+	margin-bottom: 2rem;
+}
